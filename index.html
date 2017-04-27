@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src= "js/jquery-3.2.1.js"></script>
+    <script src= "js/scripts.js"></script>
+
+    <meta charset="utf-8">
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TRIANGLE TRACKER!</h1>
+      <p>Enter the lengths of each side of your triangle to determine what type it is!
+      </p>
+      <form id="triangle">
+        <div class="form-group">
+          <label for="sideone">Side One</label>
+          <input type="text" class="form-control" id="sideone" placeholder="Enter length here">
+        </div>
+        <div class="form-group">
+          <label for="sidetwo">Side Two</label>
+          <input type="text" class="form-control" id="sidetwo" placeholder="Enter length here">
+        </div>
+        <div class="form-group">
+          <label for="sidethree">Side Three</label>
+          <input type="text" class="form-control" id="sidethree" placeholder="Enter length here">
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <h4 id="equilateral">Equilateral! All sides are equal.
+      </h4>
+      <h4 id="isosceles">Isosceles! Exactly 2 sides are equal.
+      </h4>
+      <h4 id="scalene">Scalene! No sides are equal.
+      </h4>
+
+    </div>
+
+  </body>
+</html>
